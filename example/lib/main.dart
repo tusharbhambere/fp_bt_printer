@@ -1,4 +1,3 @@
-import 'dart:typed_data';
 
 import 'package:esc_pos_utils/esc_pos_utils.dart';
 import 'package:flutter/material.dart';
