@@ -97,9 +97,11 @@ packages:
   flutter_bluetooth_serial:
     dependency: transitive
     description:
-      path: "../Packages/flutter_bluetooth_serial"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: d20701ab23b35195d8c3e729139c124681f74083
+      url: "https://github.com/tusharbhambere/flutterbluetoothserial.git"
+    source: git
     version: "0.5.0"
   flutter_test:
     dependency: "direct dev"
@@ -112,7 +114,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.4"
+    version: "0.0.5"
   gbk_codec:
     dependency: transitive
     description:
