@@ -1,6 +1,6 @@
 name: fp_bt_printer
 description:  printing receipts on bluetooth thermal printers (android only).
-version: 0.0.4
+version: 0.0.5
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
@@ -10,7 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bluetooth_serial: ^0.4.0
+  flutter_bluetooth_serial:
+   path: Packages/flutter_bluetooth_serial
 
 dev_dependencies:
   flutter_test:
